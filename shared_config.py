@@ -17,6 +17,7 @@ class SharedConfig:
             cls._instance.image_loaded = False
             cls._instance.custom_font = None
             cls._instance.canvas = None
+            cls._instance.max_size = (1024, 768)
         return cls._instance
     
     def __init__(self):
@@ -29,3 +30,4 @@ class SharedConfig:
         self.image_loaded: bool = False
         self.custom_font: Union[font.Font, None] = None
         self.canvas: Union[tk.Canvas, None] = None
+        self.max_size: tuple[int, int] = (1024, 768)

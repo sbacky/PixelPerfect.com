@@ -47,8 +47,7 @@ def open_image(file_path: Union[str, None]=None):
         print("The file could not be opened or is not an image.")
 
     # Scale the image
-    max_size = (1024, 768)
-    sc.orig_img.thumbnail(max_size)
+    sc.orig_img.thumbnail(sc.max_size)
 
     tk_img = ImageTk.PhotoImage(sc.orig_img)
 
