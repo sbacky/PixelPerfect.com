@@ -38,7 +38,13 @@ class SharedConfig:
             return cls._instance
 ```
 
-Color history contains the last 5 colors previewed along with the color hex.
+### Step 1: Open Image
+
+Drag your image and drop it on the canvas or click 'Open Image' to search your filesystem for your image.
+
+### Step 2: Get Color
+
+Click anywhere on the image to get the color of the pixel you clicked on. A preview and hex of the color will be shown below the image canvas. The last 5 colors you selected will be saved in the color history on the right of the image canvas.
 
 ## Future Updates
 
