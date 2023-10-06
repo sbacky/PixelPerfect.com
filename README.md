@@ -16,10 +16,10 @@ Install the dependencies:
 pip install -r requirements.txt
 ```
 
-Run /main.py
+Run main.py:
 
 ```bash
-python /main.py
+python main.py
 ```
 
 ## Guide
